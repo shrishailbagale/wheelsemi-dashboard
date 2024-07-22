@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/wheelsemi-dashboard/static/css/main.1d42c3a3.css",
+    "main.js": "/wheelsemi-dashboard/static/js/main.0a561532.js",
+    "static/js/453.024d8d8b.chunk.js": "/wheelsemi-dashboard/static/js/453.024d8d8b.chunk.js",
+    "index.html": "/wheelsemi-dashboard/index.html",
+    "main.1d42c3a3.css.map": "/wheelsemi-dashboard/static/css/main.1d42c3a3.css.map",
+    "main.0a561532.js.map": "/wheelsemi-dashboard/static/js/main.0a561532.js.map",
+    "453.024d8d8b.chunk.js.map": "/wheelsemi-dashboard/static/js/453.024d8d8b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d42c3a3.css",
+    "static/js/main.0a561532.js"
+  ]
+}
