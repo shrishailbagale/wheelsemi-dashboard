@@ -1,0 +1,26 @@
+.item {
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .item.highlighted {
+    background-color: yellow;
+    animation: highlight 1s infinite alternate;
+  }
+  
+  @keyframes highlight {
+    from {
+      background-color: yellow;
+    }
+    to {
+      background-color: orange;
+    }
+  }
+  
+  .item:hover {
+    transform: translateY(-5px);
+  }
+  
