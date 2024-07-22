@@ -30,7 +30,7 @@
   /* Responsive styles */
   @media (max-width: 768px) {
     .top-navbar {
-      flex-direction: column;
+      flex-direction: row;
       text-align: center;
     }
   
@@ -41,6 +41,7 @@
   
     .logo-center {
       margin: 10px 0;
+      font-size: 28pt;
     }
   }
   
