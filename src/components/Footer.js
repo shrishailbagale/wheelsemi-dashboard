@@ -14,20 +14,20 @@ const Footer = () => {
             <img src={sumaLogo} alt="SUMA" />
           </div>          
         </div>
-        <div className="footer-links">
-          <h3>Production Links:</h3>
-          <ul>
-            <li>Salesforce Link: <a href="https://wheelsltd.my.salesforce.com">https://wheelsltd.my.salesforce.com</a></li>
-            <li>NGUCC login: <a href="https://192.168.3.253:8475">https://192.168.3.253:8475</a></li>
-            <li>SOPHOS Link: <a href="https://192.168.202.6:8090/httpclient.html">https://192.168.202.6:8090/httpclient.html</a></li>
-          </ul>
-        </div>
+          {/* <div className="footer-links">
+            <h3>Production Links:</h3>
+            <ul>
+              <li>Salesforce Link: <a href="https://wheelsltd.my.salesforce.com">https://wheelsltd.my.salesforce.com</a></li>
+              <li>NGUCC login: <a href="https://192.168.3.253:8475">https://192.168.3.253:8475</a></li>
+              <li>SOPHOS Link: <a href="https://192.168.202.6:8090/httpclient.html">https://192.168.202.6:8090/httpclient.html</a></li>
+            </ul>
+          </div> */}
         
       </div>
 
       <footer>
       <div className="developer-name">
-            Developed by <a href="https://linkedin.com/in/shrishailbagale" target="_blank">Shrishail Bagale</a>
+            Developed by <a href="https://linkedin.com/in/shrishailbagale" target="_blank" rel="noopener noreferrer">Shrishail Bagale</a>
           </div>
       </footer>
       

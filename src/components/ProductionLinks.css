@@ -17,6 +17,7 @@
     padding: 20px;
     margin: 10px;
     flex: 1;
+    max-width: 30%;
     min-width: 200px;
     text-align: center;
   }
@@ -37,6 +38,7 @@
   @media (max-width: 768px) {
     .card {
       margin: 10px auto;
+      max-width: 100%;
     }
   }
   
