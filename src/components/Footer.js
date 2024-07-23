@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import wheelsEmiLogo from '../assets/wheels-emi-logo.gif'; // Replace with your actual path
-import sumaLogo from '../assets/suma-logo.gif'; // Replace with your actual path
+import sumaLogo from '../assets/bblogo.png'; // Replace with your actual path
 
 const Footer = () => {
   return (

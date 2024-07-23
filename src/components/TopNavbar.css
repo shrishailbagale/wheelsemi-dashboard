@@ -1,49 +1,53 @@
 /* Styles for the top navbar */
 .top-navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f0f0f0; /* Change as needed */
-    padding: 10px 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000; /* Ensure the navbar stays on top of other content */
-    border-bottom: 1px solid #ddd; /* Optional: add a border at the bottom */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dd1a2b;
+  /* Change as needed */
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  /* Ensure the navbar stays on top of other content */
+  border-bottom: 1px solid #ddd;
+  /* Optional: add a border at the bottom */
+}
+
+/* Logo styles */
+.logo-left,
+.logo-right {
+  height: auto;
+  /* Adjust as needed */
+  width: 230px;
+}
+
+.logo-center {
+  color: rgb(4, 6, 92);
+  font-size: 26pt;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Stencil, fantasy;
+  text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .top-navbar {
+    gap: 10px;
+    flex-direction: row;
+    text-align: center;
   }
-  
-  /* Logo styles */
+
   .logo-left,
   .logo-right {
-    height: 70px; /* Adjust as needed */
-    width: auto;
+    height: 60px;
+    /* Adjust as needed for smaller screens */
   }
-  
+
   .logo-center {
-    color: rgb(4, 6, 92);
-    font-size: 36pt;
-    font-weight: 400;
-    font-style: normal;
-    font-family: Stencil, fantasy;
-    text-decoration: none;
+    margin: 10px 0;
+    font-size: 18pt;
+    display: none;
   }
-  
-  /* Responsive styles */
-  @media (max-width: 768px) {
-    .top-navbar {
-      gap: 10px;
-      flex-direction: row;
-      text-align: center;
-    }
-  
-    .logo-left,
-    .logo-right {
-      height: 60px; /* Adjust as needed for smaller screens */
-    }
-  
-    .logo-center {
-      margin: 10px 0;
-      font-size: 18pt;
-      display: none;
-    }
-  }
-  
+}
