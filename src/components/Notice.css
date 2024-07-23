@@ -1,0 +1,29 @@
+/* Notice.css */
+.notice-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 3px 0;
+    border-top: 2px solid #ff0000;
+    border-bottom: 2px solid #ff0000;
+  }
+  
+  .marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 10s linear infinite;
+  }
+  
+  .marquee span {
+    display: inline-block;    
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
