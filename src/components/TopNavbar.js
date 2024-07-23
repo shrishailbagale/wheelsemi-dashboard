@@ -1,14 +1,14 @@
 import React from 'react';
 import './TopNavbar.css';
 import wheelsEmiLogo from '../assets/wheels-emi.gif'; // Replace with your actual path
-import sumaLogo from '../assets/bblogo.png'; // Replace with your actual path
+import bbLogo from '../assets/bblogo.png'; // Replace with your actual path
 
 const TopNavbar = () => {
   return (
     <div className="top-navbar">
-      <img src={wheelsEmiLogo} alt="Wheels EMI Logo" className="logo-left" />
+      <img src={bbLogo} alt="bike bazaar Logo" className="logo-left" />
       <div className="logo-center">Wheelsemi Pvt Ltd</div>
-      <img src={sumaLogo} alt="Suma Logo" className="logo-right" />
+      <img src={wheelsEmiLogo} alt="Wheels EMI Logo" className="logo-right" />
     </div>
   );
 };
