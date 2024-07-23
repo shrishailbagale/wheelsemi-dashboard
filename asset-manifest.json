@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/wheelsemi-dashboard/static/css/main.c084f162.css",
-    "main.js": "/wheelsemi-dashboard/static/js/main.449294a3.js",
+    "main.css": "/wheelsemi-dashboard/static/css/main.f5ece2a6.css",
+    "main.js": "/wheelsemi-dashboard/static/js/main.521b6e0c.js",
     "static/js/453.024d8d8b.chunk.js": "/wheelsemi-dashboard/static/js/453.024d8d8b.chunk.js",
     "static/media/Instuction Manual_Wheels EMI SFDC - 2023-24.xlsx": "/wheelsemi-dashboard/static/media/Instuction Manual_Wheels EMI SFDC - 2023-24.4f20dcdef9eb4f6ca2c8.xlsx",
     "index.html": "/wheelsemi-dashboard/index.html",
-    "main.c084f162.css.map": "/wheelsemi-dashboard/static/css/main.c084f162.css.map",
-    "main.449294a3.js.map": "/wheelsemi-dashboard/static/js/main.449294a3.js.map",
+    "main.f5ece2a6.css.map": "/wheelsemi-dashboard/static/css/main.f5ece2a6.css.map",
+    "main.521b6e0c.js.map": "/wheelsemi-dashboard/static/js/main.521b6e0c.js.map",
     "453.024d8d8b.chunk.js.map": "/wheelsemi-dashboard/static/js/453.024d8d8b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c084f162.css",
-    "static/js/main.449294a3.js"
+    "static/css/main.f5ece2a6.css",
+    "static/js/main.521b6e0c.js"
   ]
 }
