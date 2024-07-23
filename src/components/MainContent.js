@@ -50,28 +50,6 @@ function MainContent() {
         </Column>
       </Section>
 
-      <Section title="Guidelines & CPA Support Files">
-        <Column>
-          <Item text="Deviation Matrix - NACH" />
-          <Item text="Deviation Matrix - DCC" />
-          <Item text="Deviation Matrix - Electric Vehicle" />
-          <Item text="Pre-disbursement checklist" />
-          <Item text="Deferral Approval" />
-          <Item text="Main Dealer and Sub Dealer List" />
-          <Item text="Stamp Duty Charges" />
-          <Item text="Post-disbursement checklist" />
-          <Item text="Disbursement checklist" />
-          <Item text="LOW DP scheme for Madhepura and Supaul" highlighted />
-          <Item text="DMA and Sos Contact Details" />
-          <Item text="Query Reasons" />
-          <Item text="EV Discontinued Models List" />
-          <Item text="Negative Area List" />
-          <Item text="WOW-NTW" highlighted />
-          <Item text="SFDC - Checklist - UND" highlighted />
-          <Item text="SFDC - UND Solution Checklist" highlighted />
-        </Column>
-      </Section>
-
       <Section title="CPA Support Files">
         <Column>
           <Item text="Active Branch List" />
