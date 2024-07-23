@@ -36,12 +36,13 @@
   
     .logo-left,
     .logo-right {
-      height: 40px; /* Adjust as needed for smaller screens */
+      height: 60px; /* Adjust as needed for smaller screens */
     }
   
     .logo-center {
       margin: 10px 0;
       font-size: 18pt;
+      display: none;
     }
   }
   
