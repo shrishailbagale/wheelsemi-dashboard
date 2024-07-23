@@ -1,11 +1,12 @@
 /* Notice.css */
 .notice-container {
-    width: 100%;
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 10px;
     border-top: 2px solid #f4f4f4;
     border-bottom: 2px solid #f4f4f4;
+    margin: 0 20px;
+    border-radius:10px;
   }
   
   .marquee {
