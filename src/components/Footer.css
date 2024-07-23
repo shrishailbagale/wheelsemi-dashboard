@@ -50,6 +50,10 @@
   font-size: 14px;
   color: #fff;
 }
+.developer-name a{
+  color: #ff8513;
+  text-decoration: none;
+}
 
 @media (max-width: 768px) {
   .footer-logos {

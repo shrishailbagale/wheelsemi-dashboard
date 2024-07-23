@@ -27,7 +27,7 @@ const Footer = () => {
 
       <footer>
       <div className="developer-name">
-            Developed by Shrishail Bagale
+            Developed by <a href="https://linkedin.com/in/shrishailbagale" target="_blank">Shrishail Bagale</a>
           </div>
       </footer>
       
