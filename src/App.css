@@ -38,7 +38,7 @@
 }
 
 
-.app {
+.main-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
@@ -46,7 +46,7 @@
 }
 
 @media (max-width: 768px) {
-  .app {
+  .main-content {
     grid-template-columns: 1fr;
   }
 }

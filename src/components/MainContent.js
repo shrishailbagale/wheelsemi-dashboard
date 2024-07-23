@@ -5,7 +5,7 @@ import Item from './Item';
 
 function MainContent() {
   return (
-    <div className="app">
+    <div className="main-content">
       <Section title="Reference Documents">
         <Column>
           <Item text="Manual" />
