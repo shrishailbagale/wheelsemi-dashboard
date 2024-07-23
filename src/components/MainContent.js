@@ -2,13 +2,14 @@ import React from 'react';
 import Section from './Section';
 import Column from './Column';
 import Item from './Item';
+import Manual from '../excel/Instuction Manual_Wheels EMI SFDC - 2023-24.xlsx';
 
 function MainContent() {
   return (
     <div className="main-content">
       <Section title="Reference Documents">
         <Column>
-          <Item text="Manual" />
+        <Item text="Manual" link={Manual}/>
           <Item text="IMP Checkpoints" />
           <Item text="DE Instructions" />
           <Item text="TPD Comments" />

@@ -4,12 +4,27 @@
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, background-color 0.3s;
+    list-style: none;
+    text-decoration: none;
   }
+  .item a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .item a:hover a{
+    text-decoration: underline;
+  }  
   
   .item.highlighted {
     background-color: yellow;
     animation: highlight 1s infinite alternate;
   }
+
+  .item.highlighted a {
+  font-weight: bold;
+  color: #ff4500;
+}
   
   @keyframes highlight {
     from {
