@@ -3,9 +3,9 @@
     width: 100%;
     overflow: hidden;
     background-color: #f1f1f1;
-    padding: 3px 0;
-    border-top: 2px solid #ff0000;
-    border-bottom: 2px solid #ff0000;
+    padding: 10px;
+    border-top: 2px solid #f4f4f4;
+    border-bottom: 2px solid #f4f4f4;
   }
   
   .marquee {
@@ -15,7 +15,8 @@
   }
   
   .marquee span {
-    display: inline-block;    
+    display: inline-block;  
+    color: #ff0000;  
   }
   
   @keyframes scroll {
