@@ -7,7 +7,7 @@ const TopNavbar = () => {
   return (
     <div className="top-navbar">
       <img src={wheelsEmiLogo} alt="Wheels EMI Logo" className="logo-left" />
-      <div className="logo-center">Wheels EMI</div>
+      <div className="logo-center">Wheelsemi Pvt Ltd</div>
       <img src={sumaLogo} alt="Suma Logo" className="logo-right" />
     </div>
   );

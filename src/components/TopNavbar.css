@@ -21,15 +21,16 @@
   .logo-center {
     color: rgb(4, 6, 92);
     font-size: 36pt;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
     font-family: Stencil, fantasy;
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   /* Responsive styles */
   @media (max-width: 768px) {
     .top-navbar {
+      gap: 10px;
       flex-direction: row;
       text-align: center;
     }
